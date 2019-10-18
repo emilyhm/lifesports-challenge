@@ -2,7 +2,9 @@
 # LifeSports Challlenge and Hackathon
 
 ### About Us
+Life Sports is a program that helps young kids to be able to reach their higher potiential with academics and physical activity.
 
+This is a rough skeleton of what the website could like in the future. Used as an exerisce to work with api endpoints and the mongo database. 
 
 ### Build Components
 
