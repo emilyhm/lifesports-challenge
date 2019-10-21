@@ -6,11 +6,30 @@ Life Sports is a program that helps young kids to be able to reach their higher 
 
 This is a rough skeleton of what the website could like in the future. Used as an exerisce to work with api endpoints and the mongo database. 
 
+View the site live! 
+https://lifesports-challenge.herokuapp.com 
+
 ### Build Components
+
+Contains the following folders
+- client (folder) - contains the front end React app
+- models (folder) - contains the models created using mongoose that were used for the user and exercise inputs 
+- routes (folder) - contains the broken down routes for the users and the exercises
+- index.js (file) - the Node Express server
+- README
+- LICENSE
+
 
 ### Usage
 
+This app uses api calls like the one shown below, which gets the available exercises and displays them on the primary screen. 
+
 ```js
+
+router.get("/", async(req, res) => {
+    let exercise = await Exercise.find();
+    res.send(exercise);
+});
 
 ```
 
